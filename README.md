@@ -1,4 +1,4 @@
-# Machine Learning Models for Malaria Detection Using Clinically Validated Synthetic Data
+ Malaria Detection Using Clinically Validated Synthetic Data
 
 [![R Version](https://img.shields.io/badge/R-4.3.0+-blue.svg)](https://www.r-project.org/)
 [![Status](https://img.shields.io/badge/Status-Under%20Review-yellow.svg)](https://github.com)
@@ -18,9 +18,9 @@ This repository contains the complete computational pipeline for our machine lea
 ### 📊 Main Results Summary
 | Model | Accuracy | Sensitivity | Specificity | AUC |
 |-------|----------|-------------|-------------|-----|
-| XGBoost | 0.899 (0.886-0.912) | 0.897 (0.878-0.916) | 0.899 (0.889-0.909) | 0.956 (0.943-0.969) |
-| Naive Bayes | 0.901 (0.888-0.914) | 0.895 (0.876-0.914) | 0.903 (0.893-0.913) | 0.952 (0.939-0.965) |
-| Enhanced Bayesian LR | 0.900 (0.887-0.913) | 0.896 (0.877-0.915) | 0.901 (0.891-0.911) | 0.954 (0.941-0.967) |
+| XGBoost | 0.899 (0.886-0.911) | 0.897 (0.880-0.914) | 0.899 (0.886-0.912) | 0.956 (0.951-0.961) |
+| Naive Bayes | 0.901 (0.888-0.914) | 0.895 (0.878-0.912) | 0.903 (0.890-0.916) | 0.952 (0.947-0.957) |
+| Enhanced Bayesian LR | 0.900 (0.887-0.913) | 0.896 (0.879-0.913) | 0.901 (0.888-0.914) | 0.954 (0.949-0.959) |
 
 ## 🔬 Addressing Reviewer Requirements
 
@@ -66,11 +66,6 @@ This approach provides more statistically sound validation than traditional sing
 
 **Note**: Only the first three directories need to be created manually. The `Malaria_ML_Results_Complete/` directory and all subdirectories are created automatically when you run the analysis scripts.
 
-## 📞 For Reviewers
-
-This repository provides **complete reproducibility** for all analyses reported in our manuscript. All scripts are documented and validated. 
-
-**Estimated runtime**: 15-20 minutes for complete analysis on standard hardware.
 ## 📞 For Reviewers
 
 This repository provides **complete reproducibility** for all analyses reported in our manuscript. All scripts are documented and validated. 
